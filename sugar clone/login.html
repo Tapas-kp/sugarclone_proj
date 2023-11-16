@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        .main{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            
+
+        }
+        .leftpage{
+            height: 100%;
+            width: 40%;
+            border: 1px solid black;
+        }
+        .rightpage{
+            height:auto;
+            width: 60%;
+            border: 1px solid black;
+           
+           
+        }
+        .leftpage>img{
+            height: 100%;
+            width: 100%;
+        }
+        .rightpage>img{
+            padding-left: 45%;
+            padding-top: 6%;
+            
+        }
+        h3{
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            
+        }
+        label{
+           padding-left: 30%;
+           
+        }
+        input{
+            padding: 10px;
+            width: 50%;
+            padding-left:42px;
+            
+        }
+        .inp{
+          display: flex;
+          justify-content: center;
+         
+       
+        }
+        p{
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            color: rgb(141, 137, 137);
+            font-size: 15px;
+        }
+        button{
+            padding: 10px;
+           margin-left: 45%;
+        }
+        hr{
+            border:0.1px dashed;
+            width: 90%;
+            margin: auto;
+        }
+        #check{
+            display: flex;
+        }
+        h5{
+            margin-left: -23%;
+            font-family: 'Roboto', sans-serif;
+            color: rgb(90, 87, 87);
+        }
+        a{
+            color: rgb(249,39,121);
+            text-decoration: none;
+        }
+        .contact{
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 5%;
+            font-family: 'Roboto', sans-serif;
+            font-weight:600;
+        }
+       
+        
+       
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="leftpage"><img src="https://media.sugarcosmetics.com/upload/authSIe2.jpg" alt=""></div>
+        <div class="rightpage">
+            <br><br><br>
+            <img src="https://media.sugarcosmetics.com/upload/Hi!.png" alt="">
+            <br>
+            <br>
+            <h3>Login/Sign Up Using Phone</h3>
+            <br>
+            <label for="phone">Enter Mobile Number</label>
+            <div class="inp"><input  type="number" placeholder="+91" id="Phone"></div>
+            <br>
+            <br>
+            <p>Regestering for this site allows you to acess your order status and history.Just fill in the above fields,and we'll <br> get a new account setup for you in no time.We will only ask you for information necessary to make the purchase <br> procrss faster and earlier.</p>
+            <br>
+            <br>
+            <button>SEND ME OTP</button>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <div id="check"><input  type="checkbox" ><h5>Get important updates on Whatsapp <a href="">Terms and Conditions</a></div>
+            <br><br><br>
+            <div class="contact">Need Help? <a href="">Contact Us</a></div>
+            <br>
+            <hr>
+            <p>By signing up or loging in,you agree to our <a href="">Terms and Conditions</a></p>
+        </div>
+    </div>
+    
+</body>
+</html>

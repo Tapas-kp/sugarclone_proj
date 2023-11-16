@@ -1,0 +1,851 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height:10200px;
+    width: 100%;
+    margin: auto;
+}
+.startbar{
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+}
+
+
+#child1{
+    /* border: 1px solid black; */
+    height: 80px;
+    width: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#child2{
+    /* border: 1px solid white; */
+    height: 50px;
+    width: 300px;
+    
+}
+#avtar{
+    height: 40px;
+    width: 120px;
+    /* border: 1px solid black; */
+    
+}
+#avtar>img{
+    height: 100%;
+    width: 100%;
+}
+#searchbar>input{
+    width: 600px;
+    height: 40px;
+    padding-left: 5%;
+    /* border-color: white; */
+    background-color: rgb(50, 50, 50);
+    border-top-left-radius:7px ;
+    border-bottom-left-radius: 7px;
+    
+    
+    
+}
+#searchlogo{
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 100px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: start;
+    background-color: white;
+    
+}
+
+
+
+h4{
+    text-align: center;
+    align-items: center;
+}
+#searchbar{
+    padding:2px;
+    display: flex;
+   
+  
+}
+i{
+    padding-top: 10%;
+    padding-left: 15%;
+    
+}
+#child1>#searchbar{
+    border-top-left-radius:7px ;
+    border-bottom-left-radius: 7px;
+}
+/* below featue is used to change color of text inside searchbar at the time of typing */
+#searchbar input[type="search"]:focus {
+    color: white;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    
+}
+#login{
+    /* border: 2px solid white; */
+    height: 30px;
+    width: 150px;
+    padding-top: 10px;
+    padding-left: 25%;
+}
+#alllogo{
+    /* border: 1px solid white; */
+    height: 30px;
+    width: 100px;
+    margin: 10px 2px ;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+#child2{
+    display: flex;
+   justify-content: space-between;
+    width: 450px;
+    
+   
+}
+#heart,#bag,#offer{
+    /* border: 1px solid white; */
+}
+#heart,#bag,#offer>i{
+    color: white;
+}
+#navbar{
+    width: 100%;
+    height: 53px;
+    /* border: 1px solid black; */
+    background-color: rgb(37, 37, 37) ;
+    display: flex;
+    
+    color: white;
+    padding-left: 25px;
+    position: fixed;
+    margin-top: 100px;
+}
+#navbar>div{
+    padding: 20px;
+    
+}
+.side{
+    display:grid;
+  
+   
+    grid-template-columns: repeat(3,1fr);
+    background-color: white;
+    width: 600px;
+    top: 100%;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+  
+}
+.side ul{
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    color: black;
+}
+.side ul li{
+    color: rgb(121, 118, 118);
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    padding: 3px;
+}
+
+.side2{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: white;
+    width: 700px;
+    top: 100%;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+  
+}
+.side2 ul{
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    color: black;
+}
+.side2 ul li{
+    color: rgb(121, 118, 118);
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    padding: 3px;
+}
+.menueitems{
+    position: relative;
+}
+.submenue{
+    width: 400px;
+    /* background-color: green; */
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    display: none;
+}
+.menueitems:hover{
+    border-bottom: 2px solid red;
+    
+    
+}
+.menueitems:hover .submenue{
+   
+    display: block;
+}
+
+.main{
+    width:100%;
+    height: 400px;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding-top: 150px;
+    
+   
+   
+   
+    
+    
+}
+#prev{
+    padding: 10px 10px 20px 10px;
+    border: none;
+    background-color:rgb(87, 84, 84);
+    border-radius:55%;
+    height: 10px;
+    margin-left: 20px;
+    
+    
+    
+
+}
+#next{
+    padding: 10px 10px 20px 10px;
+    border: none;
+    background-color:rgb(87, 84, 84);
+    border-radius:55%;
+    height: 10px;
+    margin-right: 20px;
+    
+    
+    
+
+}
+
+#btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -15%;
+    background-color: transparent;
+   
+    
+    
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+#radio-buttons{
+    margin-top:14%
+    
+}
+
+#radio-buttons{
+    text-align: center;
+}
+.belowslidebar{
+    height: 90px;
+    width: 100%;
+    /* border: 1px solid black; */
+    
+}
+.itemsbar1{
+    height: 600px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: black;
+    
+    
+}
+.itemsbar10{
+    height: 600px;
+    width: 100%;
+    border: 1px solid black;
+    background-color:rgb(202, 75, 96);
+  
+    
+}
+h3{
+    color: white;
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+
+font-family: 'Roboto', sans-serif;
+}
+.colorbar{
+    background-color: dark rgb(133, 10, 90);
+    height: 2px;
+    width: 35px;
+    border: 1px solid rgb(133, 10, 90);
+    
+    margin-top: 28px;
+    padding-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.subitembar1{
+    display: flex;
+    justify-content: center;
+}
+.hotdealsbar1{
+    height: 400px;
+    width: 100%;
+    border: 1px solid black;
+   
+    
+
+}
+.hotdealsbar{
+    height: 600px;
+    width: 100%;
+    border: 1px solid black;
+  
+    
+
+}
+.subhotdealsbar>h3{
+    color: black;
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+
+font-family: 'Roboto', sans-serif;
+
+}
+.subhotdealsbar{
+    display: flex;
+    justify-content: center;
+}
+.hotimg{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+.hotimg1{
+    height: 300px;
+    width: 450px;
+    /* border: 1px solid black; */
+    margin-bottom: 9%;
+    border-radius: 10px;
+    
+}
+.hotimg1>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.mettlebox{
+    height: 500px;
+    width: 95%;
+    margin: auto;
+}
+.mettlebox>img{
+    border-radius: 7px;
+    margin-top: 20px;
+}
+.referimg{
+    width: 95%;
+    height: 400px;
+    border-radius: 10px;
+    margin: auto;
+}
+.referimg>img{
+    border-radius: 7px;
+    margin-top: 50px;
+
+}
+.thisimg{
+    height: 400px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.thisimg>.img1,.img2{
+    border-radius: 7px;
+    margin-top: 20px;
+    height: 500px;
+    width: 650px;
+
+}
+
+
+
+
+
+.endbar1{
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid black; */
+   
+}
+.subendbar1>h3{
+    color: black;
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+
+font-family: 'Roboto', sans-serif;
+
+}
+.subendbar1{
+    display: flex;
+    justify-content: center;
+}
+p{
+    text-align: center;
+
+}
+.endbar1>input{
+    margin-left: 30%;
+    width: 30%;
+    height: 10%;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 1px solid rgb(37, 37, 37);
+    
+
+}
+.endbar1>button{
+    padding:8px;
+    background-color: black;
+    color: white;
+
+}
+.subendbar{
+    display: flex;
+    justify-content: center;
+}
+.sugarendlogo{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: -5.5%;
+    border-radius: 50%;
+    
+}
+.sugarendlogo>img{
+    border-radius: 50%;
+    width:100%;
+    height: 100%;
+    
+    
+}
+.endbar{
+    background-color: black;
+    height: 100px;
+}
+#icons{
+    height: 100px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+   justify-content: center;
+   padding: 10px;
+   background-color: black;
+   
+   
+}
+.icon{
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+    margin-right: 15px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100%;
+    background-color: rgb(129, 127, 127)    ;
+ 
+    
+    
+   
+}
+i{text-align: center;
+    margin: auto;
+}
+hr{
+    width: 90%;
+    height: 0.1px;
+    color: black;
+    background-color: rgb(207, 201, 201);
+    margin: auto;
+    margin-top: -3%;
+}
+.link{
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content:center;
+    
+    
+}
+a{
+    padding: 20px;
+   width:45px;
+    margin-left: 20px;
+     /* border: 1px solid white; */
+    font-family: 'Roboto', sans-serif;
+    margin-top: -2%;
+   
+}
+
+
+.hrs{
+    width: 90%;
+    height: 0.1px;
+    color: black;
+    background-color: rgb(207, 201, 201);
+    margin: auto;
+
+}
+.main1{
+    width:90%;
+    height: 400px;
+    /* border: 1px solid black; */
+    margin: auto;
+   
+    
+    
+    
+   
+   
+   
+    
+    
+}
+
+#prev1{
+    padding: 10px 10px 20px 10px;
+    border: none;
+    background-color:rgb(87, 84, 84);
+    border-radius:55%;
+    height: 10px;
+    margin-left:20px;
+    
+    
+    
+
+}
+#next1{
+    padding: 10px 10px 20px 10px;
+    border: none;
+    background-color:rgb(87, 84, 84);
+    border-radius:55%;
+    height: 10px;
+    margin-right: 20px;
+    
+    
+    
+
+}
+
+#btn1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -15%;
+    background-color: transparent;
+   
+    
+    
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+#radio-buttons1{
+    margin-top:12%
+    
+}
+
+#radio-buttons1{
+    text-align: center;
+}
+.merch{
+    height: 400px;
+    width: 800px;
+     /* border: 1px solid black;  */
+    margin: auto;
+    display: flex;
+    padding-top: 40px;
+    
+}
+.merchbox1{
+    height:350px;
+    width: 250px;
+    background-color: white;
+    margin: auto;
+    margin-left: 15%;
+    border-radius: 7px;
+}
+.merchbox2{
+    height:350px;
+    width: 250px;
+    background-color: white;
+    margin: auto;
+    margin-right: 15%;
+    border-radius: 7px;
+}
+.inside1{
+    /* border: 1px solid black; */
+    height: 40%;
+    width: 85%;
+    margin: auto;
+}
+p,h2{
+    text-align: center;
+}
+.inside3{
+     /* border: 1px solid black;  */
+    height: 5%;
+    width: 85%;
+    margin: auto;
+    margin-top: 20%;
+   
+   
+}
+.inside3> button{
+   width: 45%;
+   height:30px;
+   background-color: black;
+   color: white;
+}
+.me{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}
+.words h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.words{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.dud{
+    margin-top:1%;
+}
+.add{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    
+}
+
+.add  h2,h4{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.theend{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+.saruni{
+   display: flex;
+   justify-content: center;
+   
+}
+.saruni img{
+    height: 50%;
+    width: 40%;
+    
+}
+h5{
+    color: white;
+    padding-left: 15%;
+    font-family: 'Roboto', sans-serif;
+
+}
+.tw,.th{
+    height:50px;
+    width: 200px;
+    margin-left: 1%;
+    margin-right: -8%;
+    margin-top: 1%;
+
+}
+.kan{
+    width: 100%;
+    color: white;
+    margin-top: 1.5%;
+}
+#sub{
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    margin-left: -0.4%;
+    width: 10%;
+}
+.hod{
+    color: black;
+    margin-right: 5%;
+}
+
+
+
+.gain{
+    height: 500px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    
+    
+}
+.cardslider{
+    height: 450px;
+    width: 300px;
+    background: white;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+    
+}
+.img{
+    height:150px;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+.img>img{
+    height: 100%;
+    width: 90%;
+    text-align: center;
+}
+.para p{
+    text-align: center;
+}
+.col{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    
+    background-color: red;
+}
+.shape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    text-align: center;
+}
+.btn{
+    text-align: center;
+}
+.btn >button{
+    background-color: black;
+    color: white;
+   
+}
+.cardslider button{
+   padding: 5%;
+   width: 60%;
+}
+.cardslider >.shape h1,h2,h3,h4{
+    color: black;
+}
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.subitembar1 h3{
+    color: rgb(239, 229, 229);
+    
+}
+.ex{
+  
+    height: 500px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.exbox{
+    
+    height:200px;
+    width: 300px;
+}
+.exbox img{
+    border-radius: 8px;
+}
+.exbox:hover img{
+    margin-top: -10%;
+}
+
+.ex1{
+  
+    height: 500px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.exbox1{
+    
+    height:300px;
+    width:450px;
+}
+.exbox1 img{
+    border-radius: 8px;
+}
+.exbox1:hover img{
+    margin-top: -10%;
+}
+.cla{
+    /* border: 1px solid white; */
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.cla>img{
+    border-radius: 50%;
+   margin-top: -5%;
+   margin-bottom: 5%;
+}
